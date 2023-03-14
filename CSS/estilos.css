@@ -1,0 +1,463 @@
+body
+{
+	background-image:url(../img/fondo.jpg) ;
+  background-size:justify ;
+}
+/*------------------------------------------------------------------
+    Fuentes
+-------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+/*------------------------------------------------------------------
+ Selectores tipo etiqueta (por cada elemento)
+------------------------------------------------------------------*/
+
+.x{
+    font-size: 24px;
+    text-align: center;
+    font-family: Lora;
+    color:var(--color-title);
+
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Sansita Swashed', cursive;
+     color: purple;
+}
+
+}
+
+h4 {
+    font-size: 36px;
+    font-family: Lora;
+    color:var(--color-title);
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 13px;
+    font-family: 'Arial';
+    text-align: justify;
+}
+
+
+.caja{
+	padding: 90px 0px;
+	/*background-color: #F6D7A7; */
+     background: #FAFAFA;
+}
+
+.titulo-caja{
+	text-align: justify-all;
+	margin-bottom: 30px;
+	padding: 10px 0px;
+
+	
+}
+.titulo-caja h2{
+	font-size: 20px;
+	font-family: 'Sansita Swashed', cursive;
+	color: #03071F;
+
+}
+
+.logo{
+    width: 60px;
+}
+.navegacion{
+    padding: 3%;
+    color:#F8F9F9;
+}
+
+.animacion:hover{
+	transform: rotate(20deg);
+	filter: blur(4px);
+}
+#contenedorCarga{
+	background: #0C1026;
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    -webkit-transition: all 3s ease;	
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+    z-index:11000;
+
+}
+
+#carga{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	-webkit-animation: girar 1.5s linear infinite;
+	-o-animation: girar 1.5s linear infinite;
+	animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar{
+	from{transform: rotate(0deg);}
+	to {transform:  rotate(360deg);}
+
+}
+
+/*animacion*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+video{
+    width: 1000px;
+    height: 500px;
+    align-content: center;
+}
+
+.header {
+position: relative;
+height: 100vh;
+min-height: 500px;
+--opacidad-negro: 0.6;
+background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)),
+rgba(0, 0, 0, var(--opacidad-negro))), url("../img/rosa.jpeg");
+no-repeat center center fixed;
+background-size: cover;
+overflow: hidden;
+
+}
+.header .shape svg {
+position: absolute;
+bottom: 0px;
+left: 0;
+width: 100%;
+z-index: 9;
+fill:#f5a9f1;
+}
+
+
+.header {
+  height: 100vh;
+}
+
+.header video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+nav{
+background-color: #f9b9fa ;
+background-image: linear-gradient(43deg, #6a2a78 0%, #6a2a78 46%, #6a2a78 100%);
+opacity:0.6;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.centrado{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+h3{
+  border-color: purple;
+  border-style: solid;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.proceso2{
+  position: relative;
+  min-height: 500px;
+  --opacidad-negro: 0.6;
+  background: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)),
+    rgba(0, 0, 0, var(--opacidad-negro))), url("../img/plantas.jpeg");
+  no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.cajaEstilo{
+  align-content: center;
+  text-align: center;
+  background-color: rgb(0,0,0,0.2);
+  margin: 55px;
+  color: #F8F7F7;
+}
+.shape2{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.proceso{
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  min-height: 500px;
+  --opacidad-negro: 0.6;
+  background: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)),
+    rgba(0, 0, 0, var(--opacidad-negro))), url("../img/p.jpeg");
+  no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.textoClaro{
+color: #F8F7F7;
+}
+.contenedor1{
+
+padding: 90px 0px;
+background: : white;
+
+}
+
+: root {
+
+--color-title:                #381640;
+--white-color:                #f5f5f5;
+--primary-color:              #5bc1ac;
+--secondary-color:            #5a6f80;
+--site-footer-bg-color:       #44525d;
+--border-color:               #e9eaeb;
+
+--body-font-familiy:          font-family:'Arial';
+
+--p-font-size:                16px;
+--btn-font-size:              18px;
+--copyright-font-size:        14px;
+
+--border-radius-large:        100px;
+--border-radius-medium:       20px;
+--border-radius-small:        10px;
+
+--font-weight-light:          300;      
+--font-weight-normal:         400;         
+--font-weight-semibold:       600;           
+--font-weight-bold:           700;       
+
+}
+
+.section-padding {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+/*---------------------------------------
+FORMA BLOCK
+-----------------------------------------*/
+.forma{
+text-align: center;
+transition: all 0.5s ease;
+min-height: 256px;
+padding: 15px;
+}
+
+.forma-block:hover {
+background: var(--white-color);
+border-radius: var(--border-radius-medium);
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+.forma-block:hover .forma-block-img {
+transform: scale(0.75);
+}
+
+.forma-block-img {
+display: block;
+margin: auto;
+transition: all 0.5s;
+}
+
+.forma-block:hover .forma-block-text {
+margin-top: 0;
+}
+
+.forma-block-text {
+color: var(--primary-color);
+font-size: var(--h5-font-size);
+margin-top: 20px;
+transition: all 0.5s;
+}
+
+/*---------------------------------------
+CENTRADA
+-----------------------------------------*/
+.centrar-section {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.centrar-image {
+border-radius: var(--border-radius-medium);
+display: block;
+width: 350px;
+height: 400px;
+object-fit: cover;
+}
+
+.centrar-text-block {
+padding: 60px 40px;
+}
+
+/*---------------------------------------
+ICON - Redes sociales
+-----------------------------------------*/
+.social-icon {
+margin: 0;
+padding: 0;
+}
+
+.social-icon-item {
+list-style: none;
+display: inline-block;
+vertical-align: top;
+}
+
+.social-icon-link {
+background: var(--site-footer-bg-color);
+border-radius: var(--border-radius-large);
+color: var(--white-color);
+font-size: var(--copyright-font-size);
+display: block;
+margin-right: 5px;
+text-align: center;
+width: 35px;
+height: 35px;
+line-height: 38px;
+}
+
+.social-icon-link:hover {
+background: var(--primary-color);
+color: var(--white-color);
+}
+
+
+.logo{
+color: var( --site-footer-bg-color);
+font-size: 50px
+
+}
+.boton{
+padding: 5%;
+color: var(--white-color);
+background-color: var( --site-footer-bg-color);
+border-color: #D4AC0D ;
+opacity: 1;
+}
+
+.boton:hover{
+background-color: var( --primary-color);
+}
+
+.google-maps {
+position: relative;
+padding-bottom: 75%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+
+
+
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.producto {
+  flex: 1 1 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.carrusel img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0 10px;
+}
