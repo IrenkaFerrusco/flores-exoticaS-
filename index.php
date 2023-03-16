@@ -14,10 +14,10 @@
 		<meta name="keywords" content="">
    		<meta name="description" content="">
     	<meta name="author" content="">
-    	<link rel="icon" href="img/1.svg">
+    	<link rel="icon" href="./imagen/1.svg">
       <link rel="stylesheet" href="login.css">
-    	<link rel="stylesheet" href="css/estilos.css">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="CSS/estilos.css">
+      <link rel="stylesheet" href="CSS/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
       <link rel="canonical" href="http://informacion-de-plantas-exoticas.ml/"/>
 
@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top text-uppercase pt-4">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img class="logo" src="img/1.svg" alt="Reino floral">
+              <img class="logo" src="./imagen/1.svg" alt="Reino floral">
             </a>
             <h1>Reino floral</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=#collapsibleNavbar">
