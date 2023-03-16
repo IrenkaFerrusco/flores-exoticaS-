@@ -1,6 +1,6 @@
 body
 {
-	background-image:url(imagen/fondo.jpg) ;
+	background-image:url(./imagen/fondo.jpg) ;
   background-size:justify ;
 }
 /*------------------------------------------------------------------
@@ -237,7 +237,7 @@ h3{
   min-height: 500px;
   --opacidad-negro: 0.6;
   background: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)),
-    rgba(0, 0, 0, var(--opacidad-negro))), url("./imagenes/plantas.jpeg");
+    rgba(0, 0, 0, var(--opacidad-negro))), url("./imagen/plantas.jpeg");
   no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
@@ -263,7 +263,7 @@ h3{
   min-height: 500px;
   --opacidad-negro: 0.6;
   background: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)),
-    rgba(0, 0, 0, var(--opacidad-negro))), url("./imagenes/p.jpeg");
+    rgba(0, 0, 0, var(--opacidad-negro))), url("./imagen/p.jpeg");
   no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
