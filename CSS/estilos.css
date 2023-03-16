@@ -1,6 +1,6 @@
 body
 {
-	background-image:url(imagen/fondo.jpg) ;
+	background-image:url(./imagen/fondo.jpg) ;
   background-size:justify ;
 }
 /*------------------------------------------------------------------
@@ -159,7 +159,7 @@ height: 100vh;
 min-height: 500px;
 --opacidad-negro: 0.6;
 background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)),
-rgba(0, 0, 0, var(--opacidad-negro))), url("./imagenes/rosa.jpeg");
+rgba(0, 0, 0, var(--opacidad-negro))), url("./imagen/rosa.jpeg");
 no-repeat center center fixed;
 background-size: cover;
 overflow: hidden;
