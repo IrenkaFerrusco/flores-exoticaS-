@@ -1,14 +1,14 @@
 body
 {
-	background-image:url(".../imagen/fondo.jpg");
+	background-image:url("../imagen/fondo.jpg");
 	background-size:justify ;
 }
 /*------------------------------------------------------------------
     Fuentes
 -------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url("https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marck+Script");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 /*------------------------------------------------------------------
  Selectores tipo etiqueta (por cada elemento)
@@ -24,7 +24,7 @@ body
 
 h2 {
     font-size: 22px;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: Sansita Swashed, cursive;
      color: purple;
 }
 
@@ -42,7 +42,7 @@ h5 {
 
 h6 {
     font-size: 13px;
-    font-family: 'Arial';
+    font-family: Arial;
     text-align: justify;
 }
 
@@ -62,7 +62,7 @@ h6 {
 }
 .titulo-caja h2{
 	font-size: 20px;
-	font-family: 'Sansita Swashed', cursive;
+	font-family: Sansita Swashed, cursive;
 	color: #03071F;
 
 }
