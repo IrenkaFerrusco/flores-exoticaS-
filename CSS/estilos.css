@@ -1,7 +1,7 @@
 body
 {
 	background-image:url("../imagen/fondo.jpg");
-	background-size:justify ;
+	background-repeat: no-repeat ;
 }
 /*------------------------------------------------------------------
     Fuentes
@@ -26,6 +26,7 @@ h2 {
     font-size: 22px;
     font-family: Sansita Swashed, cursive;
      color: purple;
+	text-align: justify;
 }
 
 }
@@ -179,24 +180,12 @@ fill:#f5a9f1;
   height: 100vh;
 }
 
-.header video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 nav{
 background-color: #f9b9fa ;
 background-image: linear-gradient(43deg, #6a2a78 0%, #6a2a78 46%, #6a2a78 100%);
 opacity:0.6;
 }
 
-.buttons {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .text {
   color: white;
@@ -405,19 +394,6 @@ color: var(--white-color);
 color: var( --site-footer-bg-color);
 font-size: 50px
 
-}
-.boton{
-padding: 5%;
-color: var(--white-color);
-background-color: var( --site-footer-bg-color);
-border-color: #D4AC0D ;
-opacity: 1;
-}
-
-.boton:hover{
-background-color: var( --primary-color);
-}
-
 .google-maps {
 position: relative;
 padding-bottom: 75%; // This is the aspect ratio
@@ -430,34 +406,4 @@ top: 0;
 left: 0;
 width: 100% !important;
 height: 100% !important;
-}
-
-
-
-
-
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.producto {
-  flex: 1 1 300px;
-  margin: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.carrusel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-}
-
-.carrusel img {
-  max-width: 100%;
-  max-height: 300px;
-  object-fit: contain;
-  margin: 0 10px;
 }
