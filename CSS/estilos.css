@@ -395,10 +395,13 @@ color: var( --site-footer-bg-color);
 font-size: 50px
 
 .google-maps {
-position: relative;
+position:center;
 padding-bottom: 75%; // This is the aspect ratio
 height: 0;
 overflow: hidden;
+	background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 .google-maps iframe {
 position: absolute;
